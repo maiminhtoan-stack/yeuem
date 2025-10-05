@@ -1,0 +1,17 @@
+body {
+    /* Đảm bảo nền đen như trong hình */
+    background-color: #000;
+    margin: 0;
+    overflow: hidden; /* Ngăn cuộn trang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#fireworksCanvas {
+    /* Đảm bảo canvas chiếm toàn bộ cửa sổ */
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
